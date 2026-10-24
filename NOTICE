@@ -1,0 +1,17 @@
+DS Bot
+Copyright 2026 zhangzhimiao1994
+
+This product is an independent community project. It is not affiliated with or
+endorsed by DeepSeek.
+
+It builds on the ideas of DeepSeek Harness (https://github.com/deepseek-ai/deepseek-harness)
+and DS Bot App (https://github.com/QingJ01/DS-Bot-App, Apache-2.0). No source code
+from those projects is copied into this repository; the wire protocol described in
+docs/PROTOCOL.md was re-derived from observed behaviour of a locally installed DSH.
+
+Third-party runtime dependencies are used through their package managers and keep
+their own licenses:
+  - AndroidX / Jetpack Compose (Apache-2.0)
+  - Kotlin, kotlinx.coroutines, kotlinx.serialization (Apache-2.0)
+  - OkHttp (Apache-2.0)
+  - Node.js built-in modules only for host/dsbot-bridge.mjs (no bundled packages)

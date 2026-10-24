@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Rounded bot head -->
+    <path
+        android:fillColor="#4F8CFF"
+        android:pathData="M32,34 h44 a10,10 0 0 1 10,10 v28 a10,10 0 0 1 -10,10 h-44 a10,10 0 0 1 -10,-10 v-28 a10,10 0 0 1 10,-10 z" />
+    <!-- Eyes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,48 m-5,0 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,48 m-5,0 a5,5 0 1 0 10,0 a5,5 0 1 0 -10,0" />
+    <!-- Mouth -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,64 h20 a2,2 0 0 1 2,2 a8,8 0 0 1 -24,0 a2,2 0 0 1 2,-2 z" />
+    <!-- Antenna -->
+    <path
+        android:fillColor="#7FD3FF"
+        android:pathData="M54,34 v-8 h-4 v-3 h8 v3 h-4 v8 z" />
+</vector>
